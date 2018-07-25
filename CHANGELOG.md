@@ -2,8 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-<a name="0.2.0"></a>
-# 0.2.0 (2018-07-24)
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/hectorerb/web-mdm-dashboard/compare/v1.0.0-rc.0...v1.0.0) (2018-07-25)
+
+
+
+<a name="1.0.0-rc.0"></a>
+# 1.0.0-rc.0 (2018-07-25)
 
 
 ### Bug Fixes
@@ -365,6 +370,11 @@ All notable changes to this project will be documented in this file. See [standa
 * **users:** validate the search range ([5f66a76](https://github.com/hectorerb/web-mdm-dashboard/commit/5f66a76))
 * **users:** validate user deletion before reloading the list ([e26a991](https://github.com/hectorerb/web-mdm-dashboard/commit/e26a991))
 * **usersScheme:** pass special function for the selects ([3fd8110](https://github.com/hectorerb/web-mdm-dashboard/commit/3fd8110))
+
+
+### ci
+
+* **deploy:** upload prerelease to github ([7877b5d](https://github.com/hectorerb/web-mdm-dashboard/commit/7877b5d))
 
 
 ### Features
@@ -1033,3 +1043,10 @@ All notable changes to this project will be documented in this file. See [standa
 * **utils:** create authtype formatter ([842b683](https://github.com/hectorerb/web-mdm-dashboard/commit/842b683))
 * **utils:** create custom DatePicker ([d0fe230](https://github.com/hectorerb/web-mdm-dashboard/commit/d0fe230))
 * **validateData:** convert all validated data to string ([ecebe52](https://github.com/hectorerb/web-mdm-dashboard/commit/ecebe52))
+
+
+### BREAKING CHANGES
+
+* **deploy:** prerelease v1.0.0
+
+Signed-off-by: Hector Rondon <hrondon@teclib.com>
