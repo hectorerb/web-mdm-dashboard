@@ -2,11 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-<a name="1.0.0"></a>
-# [1.0.0](https://github.com/hectorerb/web-mdm-dashboard/compare/v1.0.0-rc.0...v1.0.0) (2018-07-25)
-
-
-
 <a name="1.0.0-rc.0"></a>
 # 1.0.0-rc.0 (2018-07-25)
 
@@ -374,7 +369,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ci
 
-* **deploy:** upload prerelease to github ([7877b5d](https://github.com/hectorerb/web-mdm-dashboard/commit/7877b5d))
+* **deploy:** upload prerelease to github ([511d838](https://github.com/hectorerb/web-mdm-dashboard/commit/511d838))
 
 
 ### Features
