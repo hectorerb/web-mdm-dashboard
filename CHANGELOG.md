@@ -2,8 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-<a name="1.0.0-rc.0"></a>
-# 1.0.0-rc.0 (2018-07-25)
+<a name="2.0.0-rc.0"></a>
+# 2.0.0-rc.0 (2018-07-26)
 
 
 ### Bug Fixes
@@ -369,7 +369,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### ci
 
-* **deploy:** upload prerelease to github ([511d838](https://github.com/hectorerb/web-mdm-dashboard/commit/511d838))
+* **deploy:** upload pre release to github ([0859b93](https://github.com/hectorerb/web-mdm-dashboard/commit/0859b93))
 
 
 ### Features
@@ -1042,6 +1042,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### BREAKING CHANGES
 
-* **deploy:** prerelease v1.0.0
+* **deploy:** pre release v2.0.0-rc.0
 
 Signed-off-by: Hector Rondon <hrondon@teclib.com>
