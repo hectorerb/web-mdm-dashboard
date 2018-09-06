@@ -3,7 +3,7 @@
   "version": "2.0.0-rc.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/flyve-mdm/web-mdm-dashboard.git"
+    "url": "git://github.com/hectorerb/web-mdm-dashboard.git"
   },
   "license": "GPL-3.0",
   "homepage": "https://dev.flyve.org/dashboard",
