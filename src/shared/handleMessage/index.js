@@ -65,10 +65,6 @@ function validateActiveProfile(pathname, code, customErrorRoute) {
     })
 }
 
-function splitMessage(message) {
-  return message.split(';')[0]
-}
-
 /**
  * Add format to error message
  * @param {string} type of message
@@ -111,24 +107,24 @@ export default ({
 
           if (Array.isArray(messageData) && messageData[0]) {
             if (messageData[0].message) {
-              response.body = splitMessage(messageData[0].message)
+              response.body = messageData[0].message
             } else if (Array.isArray(messageData[0]) && messageData[0][0].message) {
-              response.body = splitMessage(messageData[0][0].message)
+              response.body = messageData[0][0].message
             } else if (messageData[1]) {
               if (Array.isArray(messageData[1]) && messageData[1][0].message) {
-                response.body = splitMessage(messageData[1][0].message)
+                response.body = messageData[1][0].message
               } else if (messageData[1].message) {
-                response.body = splitMessage(messageData[1].message)
+                response.body = messageData[1].message
               } else {
-                response.body = splitMessage(messageData[1])
+                response.body = messageData[1]
               }
             } else if (messageData[0].message) {
-              response.body = splitMessage(messageData[0].message)
+              response.body = messageData[0].message
             } else {
-              response.body = splitMessage(messageData[0])
+              response.body = messageData[0]
             }
           } else {
-            response.body = splitMessage(messageData)
+            response.body = messageData
           }
         } else {
           response.body = message.statusText
