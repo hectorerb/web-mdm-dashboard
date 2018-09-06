@@ -261,24 +261,21 @@ workflows:
           filters:
             branches:
               only:
-                - master
-                - develop
+                - /^release/.*/
       - documentation:
           requires:
             - test
           filters:
             branches:
               only:
-                - master
-                - develop
+                - /^release/.*/
       - coverage:
           requires:
             - test
           filters:
             branches:
               only:
-                - master
-                - develop
+                - /^release/.*/
       - release:
           requires:
             - screenshots
@@ -287,4 +284,4 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - /^release/.*/
